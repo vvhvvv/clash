@@ -15,10 +15,10 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: sb1.vvhvv.workers.dev-1, server: 43.130.39.36, port: 80, client-fingerprint: randomized, type: vless, uuid: aaca25c4-1ead-4506-a73e-00dc94137488, tls: false, tfo: false, servername: sb1.vvhvv.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sb1.vvhvv.workers.dev}}}
-  - {name: sb1.vvhvv.workers.dev-2, server: 104.18.183.29, port: 80, client-fingerprint: randomized, type: vless, uuid: aaca25c4-1ead-4506-a73e-00dc94137488, tls: false, tfo: false, servername: sb1.vvhvv.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sb1.vvhvv.workers.dev}}}
-  - {name: sb1.vvhvv.workers.dev-3, server: 104.19.113.230, port: 80, client-fingerprint: randomized, type: vless, uuid: aaca25c4-1ead-4506-a73e-00dc94137488, tls: false, tfo: false, servername: sb1.vvhvv.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sb1.vvhvv.workers.dev}}}
-  - {name: sb1.vvhvv.workers.dev-4, server: 104.19.49.103, port: 80, client-fingerprint: randomized, type: vless, uuid: aaca25c4-1ead-4506-a73e-00dc94137488, tls: false, tfo: false, servername: sb1.vvhvv.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sb1.vvhvv.workers.dev}}}
+  - {name: sb1.vvhvv.workers.dev-1, server: www.csgo.com, port: 2082, client-fingerprint: randomized, type: vless, uuid: aaca25c4-1ead-4506-a73e-00dc94137488, tls: false, tfo: false, servername: sb1.vvhvv.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sb1.vvhvv.workers.dev}}}
+  - {name: sb1.vvhvv.workers.dev-2, server: www.udemy.com, port: 2082, client-fingerprint: randomized, type: vless, uuid: aaca25c4-1ead-4506-a73e-00dc94137488, tls: false, tfo: false, servername: sb1.vvhvv.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sb1.vvhvv.workers.dev}}}
+  - {name: sb1.vvhvv.workers.dev-3, server: www.shopify.com, port: 2082, client-fingerprint: randomized, type: vless, uuid: aaca25c4-1ead-4506-a73e-00dc94137488, tls: false, tfo: false, servername: sb1.vvhvv.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sb1.vvhvv.workers.dev}}}
+  - {name: sb1.vvhvv.workers.dev-4, server: shopify.com, port: 80, client-fingerprint: randomized, type: vless, uuid: aaca25c4-1ead-4506-a73e-00dc94137488, tls: false, tfo: false, servername: sb1.vvhvv.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sb1.vvhvv.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
